@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+Create Read Update Delete
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1- Create a form to get a new element to be added: take the data from the form and transfer the state, then create a new object with the information entered in the form when the add button is clicked, create a new object with the information entered in the form, the information that should be in the item: date, todoText, id, was it done? and transfer it to a state, reset the form after receiving what is written in the form.
+2- Take the elements found in the state and list them with map (print on the screen) > if there are no elements in the satte, the screen says there is nothing to do.
+3- Todo deletion: filter the todos array according to the id of the todos clicked when clicking the delete button next to the button of each todos and show the deleted one
+4- Completing the todo: find which todo has been clicked on the done button and reverse the isDone value, make the done button change to active and cross out the done todo
+5- Edit: When the edit button is pressed, a modal will appear on the screen, there will be an input for the user to change the todo title through this modal, the title of the selected todo will be written in the input, there will be cancel and save buttons on the modal.
+6- Componentization: Separate reusable structures into compoenent
 
-## Available Scripts
+<h1>CRUD App</h1>
+<p> Create Read Update Delete</p>
+<p>Oluştur Oku Güncelle Sil</p>
 
-In the project directory, you can run:
+<ul>
+<li>
+    1- Create a form to get a new element to be added: take the data from the form and transfer the state, then create a new object with the information entered in the form when the add button is clicked, create a new object with the information entered in the form, the information that should be in the item: date, todoText, id, was it done? and transfer it to a state, reset the form after receiving what is written in the form.
+</li>
 
-### `npm start`
+<li>
+    2- Take the elements found in the state and list them with map (print on the screen) > if there are no elements in the satte, the screen says there is nothing to do.
+</li>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<li>
+    3- Todo deletion: filter the todos array according to the id of the todos clicked when clicking the delete button next to the button of each todos and show the deleted one
+</li>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<li>
+    4- Completing the todo: find which todo has been clicked on the done button and reverse the isDone value, make the done button change to active and cross out the done todo
+</li>
+<li> 
+    5- Edit: When the edit button is pressed, a modal will appear on the screen, there will be an input for the user to change the todo title through this modal, the title of the selected todo will be written in the input, there will be cancel and save buttons on the modal.
+</li>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<li>
+    6- Componentization: Separate reusable structures into compoenent
+</li>
+</ul>
